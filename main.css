@@ -1,0 +1,16 @@
+.slotContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px
+}
+.slot {
+    border: 3px solid black;
+    min-width: 0px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    front-size: 50px;
+}
