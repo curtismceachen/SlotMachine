@@ -15,6 +15,16 @@ const slots = Array.from(document.querySelectorAll(".slot"));
   //console.log(arrayArray.typeof)
 //})
 
+//function render() {
+	//renderHands();
+	//renderControls();
+	//if (winner) {
+		//renderWinnerMessage();
+	//} else {
+		//renderTurnMessage();
+	//}
+//}
+
 const lever = document.getElementById("lever");
 
 lever.addEventListener("click", leverClicked);
