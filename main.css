@@ -1,16 +1,63 @@
+body {
+    background-image: url("https://algerie-direct.net/wp-content/uploads/2020/12/rwny-slots.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+  }
+  
+.hContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aac4df;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
 .slotContainer {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    max-width: 300px
+    max-width: 300px;
 }
+  
 .slot {
-    border: 3px solid black;
+    border: 2px solid black;
     min-width: 0px;
-    min-height: 100px;
+    min-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    front-size: 50px;
+    font-size: 50px;
+    background-color: white;
+}
+  
+.lever {
+    text-align: center;
+    margin: 10px;
+}
+  
+.jackpot {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #03e203;
+}
+  
+.playAgain {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f28e8e;
 }
