@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@500&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="main.css" rel="stylesheet" type="text/css" />
     <title>Slot Machine</title>
 </head>
 
 <body>
-    <h1>Slot Machine</h1>
+    <section class="hContainer">
+        <h1>SLOT MACHINE</h1>
+    </section>
     <section class="slotContainer">
         <div id="slot1" class="slot"></div>
         <div id="slot2" class="slot"></div>
@@ -20,9 +26,12 @@
         <div id="slot7" class="slot"></div>
         <div id="slot8" class="slot"></div>
         <div id="slot9" class="slot"></div>
-  </section>
-  
-  <button id="lever">Lever</button>
-  <script src="main.js"></script>
+    </section>
+    <div class="lever">
+        <button id="leverButton">Lever</button>
+    </div>
+    <div id="jackpot" class="jackpot"></div>
+    <div id="playAgain" class="playAgain"></div>
+    <script src="main.js"></script>
 </body>
 </html>
