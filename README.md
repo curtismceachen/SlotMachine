@@ -14,3 +14,5 @@ Icebox Items:
 1. Make JavaScript code more "DRY" by coming up with a function for highlighting cells during a jackpot condition and removing the hgihlight afterwards. 
 2. Shorten the .mp3 length so as to ensure it plays with every spin, regardless of how fast the button is clicked.
 
+Game link: 
+https://curtismceachen.github.io/SlotMachine/
